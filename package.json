@@ -1,0 +1,36 @@
+{
+  "name": "quick-pomelo-hapi-plugin",
+  "version": "0.0.1",
+  "description": "Insout/Pomelo http handler plugin",
+  "main": "index.js",
+  "keywords": [
+    "pomelo",
+    "insout",
+    "http-plugin",
+    "hapi"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zhipeng515/pomelo-hapi-plugin"
+  },
+  "homepage": "https://github.com/zhipeng515/pomelo-hapi-plugin#readme",
+  "bugs": {
+    "url": "https://github.com/zhipeng515/pomelo-hapi-plugin/issues"
+  },
+  "author": "zhipeng <zhang.zhipeng@live.com>",
+  "license": "MIT",
+  "dependencies": {
+    "hapi": "~17.*",
+    "joi": "~13.*",
+    "lodash": "~4.*",
+    "boom": "~7.*",
+    "power-assert": "~1.*",
+    "pomelo": "~2.*"
+  },
+  "devDependencies": {
+    "hapi-swagger": "~8.*",
+    "inert": "^5.*",
+    "vision": "^5.*",
+    "sign-url": "^0.0.3"
+  }
+}
