@@ -20,7 +20,7 @@
   "author": "zhipeng <zhang.zhipeng@live.com>",
   "license": "MIT",
   "dependencies": {
-    "hapi": "~17.*",
+    "hapi": "~16.*",
     "joi": "~13.*",
     "lodash": "~4.*",
     "boom": "~7.*",
@@ -29,8 +29,8 @@
   },
   "devDependencies": {
     "hapi-swagger": "~8.*",
-    "inert": "^5.*",
-    "vision": "^5.*",
+    "inert": "^4.*",
+    "vision": "^4.*",
     "sign-url": "^0.0.3"
   }
 }
