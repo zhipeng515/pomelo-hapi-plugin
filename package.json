@@ -1,5 +1,5 @@
 {
-  "name": "quick-pomelo-hapi-plugin",
+  "name": "pomelo-hapi-plugin",
   "version": "0.0.1",
   "description": "Insout/Pomelo http handler plugin",
   "main": "index.js",

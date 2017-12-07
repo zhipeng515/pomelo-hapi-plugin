@@ -1,18 +1,14 @@
 {
   "development": {
-    "gamehttp": [{
-      "id": "gamehttp",
-      "port": 3011,
-      "host": "127.0.0.1",
-      "args": "--inspect=5910"
-    }]
+    "gamehttp": [
+      {"id": "gamehttp-server-1", "port": 3011, "host": "127.0.0.1", "args": "--inspect=5910"},
+      {"id": "gamehttp-server-2", "port": 3012, "host": "127.0.0.1", "args": "--inspect=5911"}
+    ]
   },
   "production": {
-    "gamehttp": [{
-      "id": "gamehttp",
-      "port": 3011,
-      "host": "127.0.0.1",
-      "args": "--inspect=5910"
-    }]
+    "gamehttp": [
+      {"id": "gamehttp-server-1", "port": 3011, "host": "127.0.0.1", "args": "--inspect=5910"},
+      {"id": "gamehttp-server-2", "port": 3012, "host": "127.0.0.1", "args": "--inspect=5911"}
+    ]
   }
 }
